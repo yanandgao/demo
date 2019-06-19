@@ -30,7 +30,6 @@ footer{
 }
 	/*底部盒子中间显示区*/
 	footer .footer-main{
-		background : red;
 		width : 1072px;
 		height : 334px;
 		margin : 0 auto;
@@ -38,22 +37,59 @@ footer{
 	
 	/*底部盒子中间上半部分显示区*/
 	footer .footer-main ol{
-		background : green;
 		width : 1072px;
 		height : 126px;
 		border-bottom : 1px solid #ebebeb;
 	}
 	footer .footer-main ol li{
-		width : 228px;
+		width : 268px;
+		height : 84px;
+		float : left;
+	}
+	footer .footer-main ol li img{
+		float : left;
+		padding-top : 30px;
+	}
+	footer .footer-main ol li h6{
+		float : left;
+		padding-top : 42px;
+		margin-left : 16px;
+		font-size : 16px;
+	}
+	footer .footer-main ol li span{
+		display : block;
+		font-size : 12px;
+		color : #999999;
+		margin-top : 12px;
 	}
 	
+	
 	/*底部盒子中间下半部分显示区*/
-	footer .footer-main ul{
+	footer .footer-main .bottom{
+		margin-top : 30px;
+		margin-left : 24px;
 		background : prink;
-		width : 1072px;
-		height : 207px;
+		width : 1048px;
+		height : 177px;
 	}
-
+	footer .footer-main .bottom dl{
+		float : left;
+		width : 174px;
+		height : 177px;
+	}
+	footer .footer-main .bottom dl dd{
+		font-size : 12px;
+		margin-bottom : 10px;
+	}
+	footer .footer-main .bottom dl dt a{
+		font-size : 10px;
+		color : #999;
+		height : 24px;
+		line-height : 24px;
+	}
+	footer .footer-main .bottom dl dt a:hover{
+		color : red;
+	}
 
 
 /*copy*/
