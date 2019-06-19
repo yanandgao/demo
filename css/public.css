@@ -1,0 +1,63 @@
+*{
+	margin : 0;
+	padding : 0;
+}
+li{
+	list-style : none;
+}
+a{
+	text-decoration : none;
+}
+img{
+	vertical-align : top;
+	display : block;
+}
+/*设置网页背景色*/
+html,body{
+	height : 100%;
+	background : #f4f4f4;
+}
+
+
+
+
+
+/*footer*/
+footer{
+	margin-top : 94px;
+	background : #fff;
+	height : 334px;
+}
+	/*底部盒子中间显示区*/
+	footer .footer-main{
+		background : red;
+		width : 1072px;
+		height : 334px;
+		margin : 0 auto;
+	}
+	
+	/*底部盒子中间上半部分显示区*/
+	footer .footer-main ol{
+		background : green;
+		width : 1072px;
+		height : 126px;
+		border-bottom : 1px solid #ebebeb;
+	}
+	footer .footer-main ol li{
+		width : 228px;
+	}
+	
+	/*底部盒子中间下半部分显示区*/
+	footer .footer-main ul{
+		background : prink;
+		width : 1072px;
+		height : 207px;
+	}
+
+
+
+/*copy*/
+.copy{
+	background : #fff;
+	height : 116px;
+}
